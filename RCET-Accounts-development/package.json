@@ -1,0 +1,25 @@
+{
+  "name": "rcet-accounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run server --prefix backend",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.2.0"
+  },
+  "dependencies": {
+    "jspdf-autotable": "^3.5.24",
+    "jspdf-react": "^1.0.11",
+    "moment": "^2.29.3",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
+  }
+}
